@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<>();
 
-                params.put("name", "Anupam");
+                params.put("name", "Ipsita");
                 params.put("job", "Android Developer");
 
 
@@ -216,8 +216,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         JSONObject jsonObject = new JSONObject();
         try {
-            jsonObject.put("name", "JournalDev.com");
-            jsonObject.put("job", "To teach you the best");
+            jsonObject.put("name", "Ipsita");
+            jsonObject.put("job", "Android Developer");
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -269,7 +269,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 JSONObject jsonObject = new JSONObject();
                 try {
-                    jsonObject.put("name", "Android Tutorials");
+                    jsonObject.put("name", "VolleyApp");
                     jsonObject.put("job", "To implement Volley in an Android Application.");
                 } catch (JSONException e) {
                     e.printStackTrace();
